@@ -303,3 +303,541 @@ transition: 0.4s all linear;
 
 
 
+.products-container .box .bx{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 20px;
+    color: var(--big-color);
+    background: var(--main-color);
+    border-radius: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+
+}
+
+.products-container .box .bx:hover{
+    background: #ff8664;
+}
+
+.customers h2{
+    font-size: 30px;
+}
+
+.customers-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.customers-container .box{
+    padding: 20ox;
+    box-decoration-break: var(--box-shadow);
+    border-radius: 0.5rem;
+    text-align: center;
+} 
+
+.customers-container .stars{
+    color: var(--main-color);
+}
+
+.customers-container .box img{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center;
+
+} 
+
+.customers-container .box h2{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.customers-container p {
+
+    font-size: 0.938rem;
+    margin: 0.5rem 0 0.5rem;
+}
+ 
+.newslater{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 2rem;
+
+}
+
+.newslater h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+
+}
+
+.newslaterfrom{
+    background: var(--big-color);
+    padding: 10px;
+    border-radius: 0.rem;
+    box-shadow: var(--box-shadow);
+
+}
+
+.newslater form input{
+    width: 150px;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+
+.newslater form .email-btn{
+    background: var(--main-color);
+    padding: 9px 15px;
+    color: var(--big-color);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    max-height: 115px;
+    border-radius: o.5rem;
+
+}
+
+
+
+.customers-container .box:hover{
+    background: var(--seconds-color);
+    transition: 0.2s all linear ;
+}
+
+
+
+@media(max-width:1058px){
+    header{
+        padding: 16px 60px;
+    }
+    section{
+        padding: 50px 60px;
+    }
+    .home-text h1{
+        font-size: 2.4rem;
+
+    }
+}
+
+@media(max-width: 991px){
+    header{
+        padding: 16px 4%;
+    }
+    section{
+        padding: 50px 4%;
+    }
+    
+.products-container{
+    grid-template-columns: repeat(auto-fit, minmax(280PX, auto));
+
+}
+
+}
+
+@media(max-width: 768px){
+    header{
+        padding: 12px 4%;
+    }
+     #menu-icon{
+        display: initial;
+
+     }
+     .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--big-color);
+        row-gap: 1.4rem;
+        padding: 20px ;
+        transition: 0.4s all linear;
+        text-align: center;
+    clip-path: circle(0% at 100% 1%);   
+        
+    }
+    .navbar.active{
+    clip-path: circle(144% at 100% 1%)
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+.products-container .box .bx{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 20px;
+    color: var(--big-color);
+    background: var(--main-color);
+    border-radius: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+
+}
+
+.products-container .box .bx:hover{
+    background: #ff8664;
+}
+
+.customers h2{
+    font-size: 30px;
+}
+
+.customers-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.customers-container .box{
+    padding: 20ox;
+    box-decoration-break: var(--box-shadow);
+    border-radius: 0.5rem;
+    text-align: center;
+} 
+
+.customers-container .stars{
+    color: var(--main-color);
+}
+
+.customers-container .box img{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center;
+
+} 
+
+.customers-container .box h2{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.customers-container p {
+
+    font-size: 0.938rem;
+    margin: 0.5rem 0 0.5rem;
+}
+ 
+.newslater{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 2rem;
+
+}
+
+.newslater h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+
+}
+
+.newslaterfrom{
+    background: var(--big-color);
+    padding: 10px;
+    border-radius: 0.rem;
+    box-shadow: var(--box-shadow);
+
+}
+
+.newslater form input{
+    width: 150px;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+
+.newslater form .email-btn{
+    background: var(--main-color);
+    padding: 9px 15px;
+    color: var(--big-color);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    max-height: 115px;
+    border-radius: o.5rem;
+
+}
+
+
+
+.customers-container .box:hover{
+    background: var(--seconds-color);
+    transition: 0.2s all linear ;
+}
+
+
+
+@media(max-width:1058px){
+    header{
+        padding: 16px 60px;
+    }
+    section{
+        padding: 50px 60px;
+    }
+    .home-text h1{
+        font-size: 2.4rem;
+
+    }
+}
+
+@media(max-width: 991px){
+    header{
+        padding: 16px 4%;
+    }
+    section{
+        padding: 50px 4%;
+    }
+    
+.products-container{
+    grid-template-columns: repeat(auto-fit, minmax(280PX, auto));
+
+}
+
+}
+
+@media(max-width: 768px){
+    header{
+        padding: 12px 4%;
+    }
+     #menu-icon{
+        display: initial;
+
+     }
+     .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--big-color);
+        row-gap: 1.4rem;
+        padding: 20px ;
+        transition: 0.4s all linear;
+        text-align: center;
+    clip-path: circle(0% at 100% 1%);   
+        
+    }
+    .navbar.active{
+    clip-path: circle(144% at 100% 1%);   
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.products-container .box .bx{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 20px;
+    color: var(--big-color);
+    background: var(--main-color);
+    border-radius: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+
+}
+
+.products-container .box .bx:hover{
+    background: #ff8664;
+}
+
+.customers h2{
+    font-size: 30px;
+}
+
+.customers-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.customers-container .box{
+    padding: 20ox;
+    box-decoration-break: var(--box-shadow);
+    border-radius: 0.5rem;
+    text-align: center;
+} 
+
+.customers-container .stars{
+    color: var(--main-color);
+}
+
+.customers-container .box img{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center;
+
+} 
+
+.customers-container .box h2{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.customers-container p {
+
+    font-size: 0.938rem;
+    margin: 0.5rem 0 0.5rem;
+}
+ 
+.newslater{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 2rem;
+
+}
+
+.newslater h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+
+}
+
+.newslaterfrom{
+    background: var(--big-color);
+    padding: 10px;
+    border-radius: 0.rem;
+    box-shadow: var(--box-shadow);
+
+}
+
+.newslater form input{
+    width: 150px;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+
+.newslater form .email-btn{
+    background: var(--main-color);
+    padding: 9px 15px;
+    color: var(--big-color);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    max-height: 115px;
+    border-radius: o.5rem;
+
+}
+
+
+
+.customers-container .box:hover{
+    background: var(--seconds-color);
+    transition: 0.2s all linear ;
+}
+
+
+
+@media(max-width:1058px){
+    header{
+        padding: 16px 60px;
+    }
+    section{
+        padding: 50px 60px;
+    }
+    .home-text h1{
+        font-size: 2.4rem;
+
+    }
+}
+
+@media(max-width: 991px){
+    header{
+        padding: 16px 4%;
+    }
+    section{
+        padding: 50px 4%;
+    }
+    
+.products-container{
+    grid-template-columns: repeat(auto-fit, minmax(280PX, auto));
+
+}
+
+}
+
+@media(max-width: 768px){
+    header{
+        padding: 12px 4%;
+    }
+     #menu-icon{
+        display: initial;
+
+     }
+     .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--big-color);
+        row-gap: 1.4rem;
+        padding: 20px ;
+        transition: 0.4s all linear;
+        text-align: center;
+    clip-path: circle(0% at 100% 1%);   
+        
+    }
+    .navbar.active{
+    clip-path: circle(144% at 100% 1%);   
+    }
+}
+
